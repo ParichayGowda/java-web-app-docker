@@ -1,2 +1,3 @@
-FROM tomcat:11.0.0-M14-jdk21-temurin-jammy
+FROM tomcat:8.0.20-jre8
+# Dummy text to test 
 COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
